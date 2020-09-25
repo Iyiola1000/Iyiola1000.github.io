@@ -1,0 +1,33 @@
+---
+layout: post
+title:  "What is the Internet of Things?"
+date:   2020-09-24 06:52:45 -0700
+categories: jekyll update
+---
+What is the Internet of Things?
+
+In the broadest sense, the term IoT encompasses everything connected to the internet, but it is increasingly being used to define objects that "talk" to each other. "Simply, the Internet of Things is made up of devices – from simple sensors to smartphones and wearables – connected together," Matthew Evans, the IoT programme head at techUK, says. 
+By combining these connected devices with automated systems, it is possible to "gather information, analyse it and create an action" to help someone with a particular task, or learn from a process. In reality, this ranges from smart mirrors to beacons in shops and beyond. 
+"It's about networks, it's about devices, and it's about data," Caroline Gorski, the head of IoT at Digital Catapult explains. IoT allows devices on closed private internet connections to communicate with others and "the Internet of Things brings those networks together. It gives the opportunity for devices to communicate not only within close silos but across different networking types and creates a much more connected world." 
+    
+    
+Why do connected devices need to share data?
+An argument has been raised that only because something can be connected to the internet doesn't mean it should be, but each device collects data for a specific purpose that may be useful to a buyer and impact the wider economy.
+
+Within industrial applications, sensors on product lines can increase efficiency and cut down on waste. One study estimates 35 per cent of US manufacturers are using data from smart sensors within their set-ups already. US firm Concrete Sensors has created a device that can be inserted into concrete to provide data on the material's condition, for instance. 
+
+
+Where does the IoT go next?
+Even those who have purchased one of the myriad smart home products – from lightbulbs, switches, to motion sensors – will attest to the fact IoT is in its infancy. Products don't always easily connect to each other and there are significant security issues that need to be addressed.
+
+A report from Samsung says the need to secure every connected device by 2020 is "critical". The firm's Open Economy document says "there is a very clear danger that technology is running ahead of the game". The firm said more than 7.3 billion devices will need to be made secure by their manufacturers before 2020.
+
+“We are looking at a future in which companies will indulge in digital Darwinism, using IoT, AI and machine learning to rapidly evolve in a way we’ve never seen before," Brian Solis, from Altimeter Group, who helped on the research said. 
+
+But aren't there privacy implications?
+
+Everything that's connected to the internet can be hacked, IoT products are no exception to this unwritten rule. Insecure IoT systems led to toy manufacturer VTech losing videos and pictures of children using its connected devices.
+
+There's also the issue of surveillance. If every product becomes connected then there's the potential for unbridled observation of users. If a connected fridge tracks food usage and consumption, takeaways could be targeted at hungry people who have no food. If a smartwatch can detect when you're having sex, what is to stop people with that data using it against the watches' wearer.
+
+“In the future, intelligence services might use the [internet of things] for identification, surveillance, monitoring, location tracking, and targeting for recruitment, or to gain access to networks or user credentials,” James Clapper, the US direction or national intelligence said in 2016. Wikileaks later claimed the CIA has been developing security exploits for a connected Samsung TV. 
