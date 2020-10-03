@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "What is a dockerfile?"
+date:   2020-10-02 06:52:45 -0700
+categories: jekyll update
+---
+What is A Dockerfile?
+Currenttly in my CIT 480 class we are working with dockerfile to help with automation. A Dockerfile is a text file that defines a Docker image. You’ll use a Dockerfile to create your own custom Docker image, in other words to define your custom environment to be used in a Docker container.
+
+Why would we use Dockerfiles 
+Learning about dockerfiles is pretty essential wehn working with Docker. Docker images make it easy to deploy multiple containers without having to maintain the same across multiple virtual machines. You can use a Dockerfile to automate installation and configuration of an image and its dependencies
+
+Some of the commands i used for my first dockerfile are
+FROM : FROM directive is probably the most crucial amongst all others for Dockerfiles. It defines the base image to use to start the build process
+MAINTAINER : This non-executing command declares the author, hence setting the author field of the images
+RUN : The RUN command is the central executing directive for Dockerfiles. It takes a command as its argument and runs it to form the image
+CMD : The command CMD, similarly to RUN, can be used for executing a specific command. However, unlike RUN it is not executed during build, but when a container is instantiated using the image being built
