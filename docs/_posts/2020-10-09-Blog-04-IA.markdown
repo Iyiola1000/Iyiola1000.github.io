@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "cryptography"
+date:   2020-10-02 06:52:45 -0700
+categories: jekyll update
+---
+What is cryptography?
+Currenttly in my Comp 424 class we are working with decrypting codes, we were allowed to use any method of our choosing so i decided to use a language called julia to complete this task and aslo had to use dictionary libraires to find the most likely word.
+Modern cryptography concerns itself with the following four objectives:
+
+    Confidentiality: the information cannot be understood by anyone for whom it was unintended
+    Integrity: the information cannot be altered in storage or transit between sender and intended receiver without the alteration being detected
+    Non-repudiation: the creator/sender of the information cannot deny at a later stage his or her intentions in the creation or transmission of the information
+    Authentication: the sender and receiver can confirm each other's identity and the origin/destination of the information
