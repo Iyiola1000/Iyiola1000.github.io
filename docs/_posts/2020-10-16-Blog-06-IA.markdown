@@ -7,9 +7,9 @@ categories: jekyll update
 
 What is Jacascript?
 JavaScript is a scripting language used to create and control dynamic website content, i.e. anything that moves, refreshes, or otherwise changes on your screen without requiring you to manually reload a web page. Features like:
+~animated graphics
+~photo slideshows
+~autocomplete text suggestions
+~interactive forms
 
-    animated graphics
-    photo slideshows
-    autocomplete text suggestions
-    interactive forms
 In my COMP 484 class (Web Engineering) we are learning about Javascript to incorporate it to our websites to explore all the usues of it first hand.
