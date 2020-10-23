@@ -9,16 +9,21 @@ What is Ansible?
 Ansible is an open-source software provisioning, configuration management, and application-deployment tool enabling infrastructure as code. It runs on many Unix-like systems, and can configure both Unix-like systems as well as Microsoft Windows. 
 Before we get started we have to install ansible on our Ubuntu system and to that i ran the following code in terminal
 $ sudo apt-get update
+
 $ sudo apt-get install software-properties-common
+
 $ sudo apt-add-repository ppa:ansible/ansible
+
 $ sudo apt-get update
+
 $ sudo apt-get install ansible
 
 Ansible Playbook
 playbooks are more useful for multiple tasks. Playbooks are text files written in the YAML format. An example of what one would look like is 
-
+"
 ---
 - hosts: all
 tasks:
 - name: list files in folder
 command: ls
+"
