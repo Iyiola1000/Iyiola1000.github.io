@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "Wireshark"
+date:   2020-10-29 06:52:45 -0700
+categories: jekyll update
+---
+In my computer security class we were given an assignment to work with Wireshark to analyze already-captured traces in some files.
+What is Wireshark?
+Wireshark is a network packet analyzer. A network packet analyzer presents captured packet data in as much detail as possible. You could think of a network packet analyzer as a measuring device for examining what’s happening inside a network cable, just like an electrician uses a voltmeter for examining what’s happening inside an electric cable (but at a higher level, of course).
+Some of the uses of Wireshark are for:
+-Network administrators use it to troubleshoot network problems
+-Network security engineers use it to examine security problems
+-QA engineers use it to verify network applications
+-Developers use it to debug protocol implementations
+-People use it to learn network protocol internals 
+
+Wireshark is very similar to tcpdump, but has a graphical front-end, plus some integrated sorting and filtering options. Wireshark lets the user put network interface controllers into promiscuous mode (if supported by the network interface controller), so they can see all the traffic visible on that interface including unicast traffic not sent to that network interface controller's MAC address. However, when capturing with a packet analyzer in promiscuous mode on a port on a network switch, not all traffic through the switch is necessarily sent to the port where the capture is done, so capturing in promiscuous mode is not necessarily sufficient to see all network traffic. Port mirroring or various network taps extend capture to any point on the network. Simple passive taps are extremely resistant to tampering
