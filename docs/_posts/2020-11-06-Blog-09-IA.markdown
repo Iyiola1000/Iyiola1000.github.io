@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "Authentication"
+date:   2020-11-06 06:52:45 -0700
+categories: jekyll update
+---
+What is Authentication? <p>
+     In security, authentication is the process of verifying whether someone (or something) is, in fact, who (or what) it is declared to be. Its a way of verifying the identity of a user, process, or device, often as a prerequisite to allowing access to resources in an information system. Whether you are logging into your computer system at the office, checking your account balance on your bank website, or visiting your favorite social media feeds, the process of authentication helps these sites determine that you are the correct person trying to gain access.
+    <p> In my comp 424 class one of the elements of our final project is implementing 2-factor authentication on our website and we are using the Laravel framework to implement that 
+     
+<p>Ways to Authenticate?
+<p>There are three methods of authentication: something you know (i.e. passwords), something you have (i.e. token keys), or something you are (scanned body part, i.e. fingerprint). Personally on my home PC i have a fingerprint scanner i use for my authentication.
+
+<p>What About Two-Factor Authentication?
+<p>Multifactor authentication (MFA) is a really good thing. MFA combines two different methods of authentication (i.e. a password and a token) to provide greater security when proving your identity.
+Continuing with our online bank account example, if a friend were to have guessed the password to your account but you had MFA authentication turned on, they would be denied access unless she also had my cell phone, knew the PIN to access the phone, and was able to pull the one-time code needed as a second verification method.
