@@ -1,0 +1,63 @@
+---
+layout: post
+title:  "iptables"
+date:   2020-11-06 06:52:45 -0700
+categories: jekyll update
+---
+What is Iptables? <p>
+Iptables is an extremely flexible firewall utility built for Linux operating systems. Whether you’re a novice Linux geek or a system administrator, there’s probably some way that iptables can be a great use to you. Read on as we show you how to configure the most versatile Linux firewall.
+<p>
+In my class whe are working on creating a shell script for our Iptable to include all the commands regarding implementing policies. <p>
+How do Iptables work? <p>
+Network traffic is made up of packets. Data is broken up into smaller pieces (called packets), sent over a network, then put back together. Iptables identifies the packets received and then uses a set of rules to decide what to do with them. <p>
+     The following code is what i use for my iptable webserver: <p>
+     #!/bin/sh
+
+# Empty all rules
+sudo iptables -t filter -F
+sudo iptables -t filter -X
+
+# Bloc everything by default
+sudo iptables -t filter -P INPUT DROP
+sudo iptables -t filter -P FORWARD DROP
+sudo iptables -t filter -P OUTPUT DROP
+
+# Authorize already established connexions
+sudo iptables -A INPUT -m state --state RELATED,ESTABLISHED -j ACCEPT
+sudo iptables -A OUTPUT -m state --state RELATED,ESTABLISHED -j ACCEPT
+sudo iptables -t filter -A INPUT -i lo -j ACCEPT
+sudo iptables -t filter -A OUTPUT -o lo -j ACCEPT
+
+# ICMP (Ping)
+sudo iptables -t filter -A INPUT -p icmp -j ACCEPT
+sudo iptables -t filter -A OUTPUT -p icmp -j ACCEPT
+
+# SSH
+sudo iptables -t filter -A INPUT -p tcp --dport 22 -j ACCEPT
+sudo iptables -t filter -A OUTPUT -p tcp --dport 22 -j ACCEPT
+
+# DNS
+sudo iptables -t filter -A OUTPUT -p tcp --dport 53 -j ACCEPT
+sudo iptables -t filter -A OUTPUT -p udp --dport 53 -j ACCEPT
+sudo iptables -t filter -A INPUT -p tcp --dport 53 -j ACCEPT
+sudo iptables -t filter -A INPUT -p udp --dport 53 -j ACCEPT
+
+# HTTP
+sudo iptables -t filter -A OUTPUT -p tcp --dport 80 -j ACCEPT
+sudo iptables -t filter -A INPUT -p tcp --dport 80 -j ACCEPT
+
+#HTTPS
+sudo iptables -t filter -A OUTPUT -p tcp --dport 443 -j ACCEPT
+sudo iptables -t filter -A INPUT -p tcp --dport 443 -j ACCEPT
+
+# FTP
+sudo iptables -t filter -A OUTPUT -p tcp --dport 20:21 -j ACCEPT
+sudo iptables -t filter -A INPUT -p tcp --dport 20:21 -j ACCEPT
+
+# Git
+sudo iptables -t filter -A OUTPUT -p tcp --dport 9418 -j ACCEPT
+sudo iptables -t filter -A INPUT -p tcp --dport 9418 -j ACCEPT
+
+# Mail SMTP
+iptables -t filter -A INPUT -p tcp --dport 25 -j ACCEPT
+iptables -t filter -A OUTPUT -p tcp --dport 25 -j ACCEPT
