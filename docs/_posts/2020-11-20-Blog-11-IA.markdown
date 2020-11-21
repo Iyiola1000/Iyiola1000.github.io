@@ -1,0 +1,25 @@
+---
+layout: post
+title:  "Social Engineering"
+date:   2020-11-20 06:52:45 -0700
+categories: jekyll update
+---
+
+<h1> What is Social Engineering</h1>
+<body>
+In the context of information security, social engineering is the psychological manipulation of people into performing actions or divulging confidential information. This differs from social engineering within the social sciences, which does not concern the divulging of confidential information.
+<p>
+At CSUN we have a club called Layer 8 and its a cyber security club and being one of the board of the directors i gave a presentation on social engineering to bring awareness of its existence and best practices we can do to stay safe.
+<p>
+Social engineering is the art of exploiting human psychology, rather than technical hacking techniques, to gain access to buildings, systems or data.
+For example, instead of trying to find a software vulnerability, a social engineer might call an employee and pose as an IT support person, trying to trick the employee into divulging his password.
+<h2>Why Social Engineering Awareness is important</h2>
+Even if you've got all the bells and whistles when it comes to securing your data center, your cloud deployments, your building's physical security, and you've invested in defensive technologies, have the right security policies and processes in place and measure their effectiveness and continuously improve, still a crafty social engineer can weasel his way right through (or around).
+<h2>Social Engineering Attacks to Watch Out For</h2>
+<h3> Phishing </h3>
+Phishing is the most common type of social engineering attack that occurs today. But what is it exactly? At a high level, most phishing scams endeavor to accomplish three things, obtain personal information such as names, addresses and Social Security Numbers, use shortened or misleading links that redirect users to suspicious websites that host phishing landing pages, incorporate threats, fear and a sense of urgency in an attempt to manipulate the user into responding quickly.
+
+<h3>Pretexting</h3>
+Pretexting is another form of social engineering where attackers focus on creating a good pretext, or a fabricated scenario, that they use to try and steal their victims’ personal information. In these types of attacks, the scammer usually says they need certain bits of information from their target to confirm their identity. In actuality, they steal that data and use it to commit identity theft or stage secondary attacks.
+<h3>Tailgating</h3>
+Our final social engineering attack type of the day is known as tailgating or “piggybacking.” In these types of attacks, someone without the proper authentication follows an authenticated employee into a restricted area. The attacker might impersonate a delivery driver and wait outside a building to get things started. When an employee gains security’s approval and opens the door, the attacker asks the employee to hold the door, thereby gaining access to the building.
