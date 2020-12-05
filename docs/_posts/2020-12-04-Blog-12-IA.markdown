@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "Laravel"
+date:   2020-12-04 06:52:45 -0700
+categories: jekyll update
+---
+
+<h1> What is Laravel</h1>
+<body>
+Laravel is a web application framework with expressive, elegant syntax. We’ve already laid the foundation — freeing you to create without sweating the small things.
+  <p>
+Laravel offers a rich set of functionalities which incorporates the basic features of PHP frameworks like CodeIgniter, Yii and other programming languages like Ruby on Rails. Laravel has a very rich set of features which will boost the speed of web development.
+  <p>
+For my Computer security class LAravel is the primary framework we are using to secure our websites with things like email confirmation security questions, CAPTCHA amd 2 factor authentication
+<h2>Advantages of Laravel</h2>
+Laravel offers you the following advantages, when you are designing a web application based on it − The web application becomes more scalable, owing to the Laravel framework. Considerable time is saved in designing the web application, since Laravel reuses the components from other framework in developing web application. It includes namespaces and interfaces, thus helps to organize and manage resources.
+  <h3>Features of Laravel</h3>
+Authentication – This feature has become an integral part of any serious web application. Authentication writing in the past in pieces of frameworks software like CodeIgniter was a lengthy process. Laravel provides this feature out of the box while all the developer has to do is to run a simple command to create a functional, smoothly-running authentication system. Plus, some options let developers create their authentication
+  <p>
+Caching – Storing easily and quickly retrievable data has also been a mainstay in web development and Laravel also comes with this handy feature. This is really practical since it allows the web application (a website, for example) to perform better by decreasing information processing time when accessing the app.
+<p>
+Security – Most developers have praised Laravel for its ability to create secure web applications. For starters, there’s the frameworks authentication system, also, the eloquent ORM uses PDO binding which serves as protection from SQL injections. Laravel also offers native support for code protection from XSS attacks. The framework also offers different security packages to further improve web application safety. Packages such as Laravel Security Component, Laravel-ACL all serve the purpose of enhancing application security.
