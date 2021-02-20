@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "UX design"
+date:   2021-02-19 06:52:45 -0700
+categories: jekyll update
+---
+<h1> What is UX Design</h1>
+<body>
+UX design focuses on the interaction between real human users (like you and me) and everyday products and services, such as websites, apps, and even coffee machines. It’s an extremely varied discipline, combining aspects of psychology, business, market research, design, and technology.
+<p>
+This semester i am currently enrolled in a Comp 485 class that focus on human interaction, in this class we examine the information exchange between humans and computer systems. We discuss aspects of input/output devices, software engineering and human factors with respect to human-computer interactions
+  <p>
+<h2>What does a UX designer do</h2>
+As a UX designer, you’re there to make products and technology usable, enjoyable, and accessible for humans. UX designers tend to work as part of a wider product team, and will often find themselves bridging the gap between the user, the development team, and key business stakeholders
