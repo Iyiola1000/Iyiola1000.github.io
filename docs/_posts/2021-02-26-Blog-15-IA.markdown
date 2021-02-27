@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "C++ Programming"
+date:   2021-02-26 06:52:45 -0700
+categories: jekyll update
+---
+<h1> What is C++</h1>
+<body>
+C++ is a middle-level language rendering it the advantage of programming low-level (drivers, kernels) and even higher-level applications (games, GUI, desktop apps etc.). The basic syntax and code structure of both C and C++ are the same. <p>
+Although im not currently enrolled in any C++ classes i am still brushing up on my programming simply because i find it pretty fun and enjoyable to do, i als think it is a very valuable skill to have.
+  <p>
+<h2>Why learn C++?</h2>
+C++ is used to develop games, desktop apps, operating systems, browsers, and so on because of its performance.After learning C++, it will be much easier to learn other programming languages like Java, Python, etc.C++ helps you to understand the internal architecture of a computer, how computer stores and retrieves information.
+  <h2> How to learn C++ </h2>
+    Some of the ways ive been getting familiar with C++ again are as follows:
+    <p>
+    C++ tutorial from Programiz - We provide step by step C++ tutorials, examples, and references. 
+    <p>
+    Official C++ documentation - Might be hard to follow and understand for beginners. 
+    <p>
+      Write a lot of C++ programming code- The only way you can learn programming is by writing a lot of code.
+      <p>
+        Read C++ code- Join Github's open-source projects and read other people's code.
