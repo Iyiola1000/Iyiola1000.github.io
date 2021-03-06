@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "Cryptocurrency"
+date:   2021-03-05 06:52:45 -0700
+categories: jekyll update
+---
+
+
+<h1> What is cryptocurrenct</h1>
+<body>
+Cryptocurrency is a form of payment that can be exchanged online for goods and services. Many companies have issued their own currencies, often called tokens, and these can be traded specifically for the good or service that the company provides. Think of them as you would arcade tokens or casino chips. You’ll need to exchange real currency for the cryptocurrency to access the good or service.
+  <p>
+<h2>Why are cryptocurrencies so popular?</h2>
+Supporters see cryptocurrencies such as Bitcoin as the currency of the future and are racing to buy them now, presumably before they become more valuable. Even though that was my inital rhetoric for investing in them it later change to liking the technology behind cryptocurrencies, the blockchain, because it’s a decentralized processing and recording system and can be more secure than traditional payment systems.
+  <h2> Synthetic Network token </h2>
+    Synthetic Network token, also known as Synthtix is my personal favorite. Synthetix is a decentralized, synthetic-asset exchange that plays a major role in the world of decentralized finance. Synths are different from real assets and offer multiple advantages over the typical DEX in terms of trading, allowing full-on peer-to-contract trading and price feeds. They have occupied an excitable crowd in the global economy, which indicates it will revamp the entire DeFi space soon. 
