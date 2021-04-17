@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "Automating with Phyton!"
+date:   2021-04-16 06:52:45 -0700
+categories: jekyll update
+---
+<h1> Automating tasks with Phython </h1>
+
+<body>
+<p>
+Performing repetitive tasks can bore even the most resilient of us out of our minds. Lucky for us, the digital age we live in offers us a bevy of tools to relieve ourselves of that sort of tedious labor.
+While that particular ability may seem contingent upon our knowledge of programming languages, automation is definitely for you, even if you’re a complete newbie to the field. Even though it might seem daunting at first, I promise you that building your first script will feel very rewarding and your new skills will save you lots of time in the long run.
+<p>
+Python offers great readability and approachable syntax. The latter resembles plain English, which makes it an excellent choice to start your journey with. When compared with other languages, Python clearly stands out as one of the simplest in the bunch.
+<p>
+Some of the things you can automate with Python include: Reading and writing files, sending emails, web scraping, interacting with an API.
+<p>
+In the software development space, automation can come in many forms; writing and packaging automation scripts or classes to be used as packages or libraries, is one of the most common ways. This can save you the stress and time of having to write numerous lines of code each and every time you need to implement something. As an agile software developer, data scientist, AI or ML engineer, automating simple but time-consuming tasks should be a go-to method for you. It makes you stand out at what you do even as it saves you time and effort 😉.
+
+
+</body>
