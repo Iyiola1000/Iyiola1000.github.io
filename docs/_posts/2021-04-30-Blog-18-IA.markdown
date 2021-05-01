@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "Lambda Functions in Python"
+date:   2021-04-30 06:52:45 -0700
+categories: jekyll update
+---
+<h1> Lambda Functions in Python </h1>
+
+<body>
+<p>
+In Python, we use the lambda keyword to declare an anonymous function, which is why we refer to them as "lambda functions". An anonymous function refers to a function declared with no name. Although syntactically they look different, lambda functions behave in the same way as regular functions that are declared using the def keyword. 
+<p>
+  <h2>  Why Use Lambda Functions? </h2>
+Lambda functions are used when you need a function for a short period of time. This is commonly used when you want to pass a function as an argument to higher-order functions, that is, functions that take other functions as their arguments.
+<p>
+Some of the things you can automate with Python include: Reading and writing files, sending emails, web scraping, interacting with an API.
+<p>
+In Python, a lambda function is a single-line function declared with no name, which can have any number of arguments, but it can only have one expression. Such a function is capable of behaving similarly to a regular function declared using the Python's def keyword. Often times a lambda function is passed as an argument to another function.
+<p>
+For the next phase of our project i have been tasked with making some lambda functions for our infrastructure. So although i have not yet written the functions to remove instances from the application load balancer, to check for current spot price, check what regions are running an instance, placing request for a new spot instance in a second availabilty zone and registering a new instance with the application load balancer. 
+
+
+</body>
